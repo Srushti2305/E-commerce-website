@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Elysian Gems - Jewelry Collections</title>
+</head>
+<body>
+    <header>
+        <h1 class="website-name">Elysian Gems</h1> <!-- Website Name at the top -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Product 1 -->
+        <div class="product-container">
+            <div class="image-gallery">
+                <img src="brooch.jpg" alt="Brooch " class="product-image" id="mainImage1">
+                <div class="thumbnail-container">
+                    <img src="brooch1.jpg" alt="Brooch" class="thumbnail" onclick="changeImage('mainImage1', 'brooch1.jpg')">
+                    <img src="brooch2.jpg" alt="Brooch" class="thumbnail" onclick="changeImage('mainImage1', 'brooch2.jpg')">
+                </div>
+            </div>
+            <div class="product-details">
+                <h1 class="product-name">Elysian Vintage-Inspired Brooch
+
+                </h1>
+                <p class="product-description">This vintage-inspired brooch is adorned with intricate filigree work and set with sparkling crystals. A perfect accessory for jackets, scarves, or hats, it adds a touch of elegance and nostalgia to any outfit.</p>
+                <p class="product-price">$99.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-container">
+            <div class="image-gallery">
+                <img src="earing.jpg" alt="Earrings" class="product-image" id="mainImage2">
+                <div class="thumbnail-container">
+                    <img src="earing1.jpg" alt="Earrings" class="thumbnail" onclick="changeImage('mainImage2', 'earing1.jpg')">
+                    <img src="earing2.jpg" alt="Earrings" class="thumbnail" onclick="changeImage('mainImage2', 'earing2.jpg')">
+                </div>
+            </div>
+            <div class="product-details">
+                <h1 class="product-name">Timeless Pearl Drop Earrings</h1>
+                <p class="product-description">These classic pearl drop earrings feature lustrous freshwater pearls suspended from a delicate gold chain. Ideal for weddings or special occasions, they add a touch of sophistication and grace to any outfit.</p>
+                <p class="product-price">$89.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <!-- Product 3 -->
+        <div class="product-container">
+            <div class="image-gallery">
+                <img src="necklace.jpg" alt="Necklace " class="product-image" id="mainImage3">
+                <div class="thumbnail-container">
+                    <img src="necklace1.jpg" alt="Necklace" class="thumbnail" onclick="changeImage('mainImage3', 'necklace1.jpg')">
+                    <img src="necklace2.jpg" alt="Necklace" class="thumbnail" onclick="changeImage('mainImage3', 'necklace2.jpg')">
+                </div>
+            </div>
+            <div class="product-details">
+                <h1 class="product-name">Elysian Diamond Pendant Necklace</h1>
+                <p class="product-description">This stunning pendant necklace features a brilliant round-cut diamond set in a delicate 14k white gold setting. Perfect for any occasion, this piece adds a touch of elegance to your outfit, whether you're dressing up for a night out or adding sparkle to your everyday look.
+                </p>
+                <p class="product-price">$979.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-container">
+            <div class="image-gallery">
+                <img src="ring.jpg" alt="Ring " class="product-image" id="mainImage4">
+                <div class="thumbnail-container">
+                    <img src="ring1.jpg" alt="Ring" class="thumbnail" onclick="changeImage('mainImage4', 'ring1.jpg')">
+                    <img src="ring2.jpg" alt="Ring" class="thumbnail" onclick="changeImage('mainImage4', 'ring2.jpg')">
+                </div>
+            </div>
+            <div class="product-details">
+                <h1 class="product-name">Elysian Rose Gold Infinity Ring</h1>
+                <p class="product-description">This elegant infinity ring is crafted from stunning rose gold and features a delicate design that symbolizes eternal love. Perfect as an engagement ring or a meaningful gift for someone special, it’s a timeless piece that will be cherished forever.
+                </p>
+                <p class="product-price">$109.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <section class="additional-sections">
+            <h2>Customer Reviews</h2>
+            <div class="reviews">
+                <p>★★★★☆ - Great product!</p>
+                <p>★★★☆☆ - Good value for money.</p>
+            </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Your Company Name</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
